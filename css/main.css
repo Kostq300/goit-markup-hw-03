@@ -253,6 +253,8 @@ address {
 
 .footer {
   background-color: #2f303a;
+  height: 250px;
+  padding-top: 50px;
 }
 
 .address {
@@ -260,6 +262,8 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
+  margin-left: 41px;
+  margin-bottom: 10px;
 }
 
 .address-item {
@@ -276,3 +280,9 @@ address {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
+
+.logo-foot{
+  margin-left: 41px;
+  padding-bottom: 100px;
+}
+
