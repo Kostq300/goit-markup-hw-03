@@ -203,9 +203,6 @@ img {
   color: var(--primary-text-color);
 }
 
-.benefits-list {
-}
-
 .list-ben {
   display: flex;
   padding: 0;
