@@ -29,6 +29,11 @@ a {
   text-decoration: none;
 }
 
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -203,7 +208,7 @@ img{
 }
 
 .benefits-list{
-  padding-top: 94px;
+  
 }
 
 .list-ben{
@@ -238,7 +243,6 @@ img{
 }
 
 .main-title{
-  padding-top: 94px;
   margin-top: 0;
   margin-bottom:50px;
   margin-left: 0;
@@ -246,7 +250,7 @@ img{
 }
 
 .about-box{
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .main-list{
@@ -255,7 +259,7 @@ img{
 }
 
 .our-team{
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .main-list-item:not(:last-child){
@@ -285,6 +289,17 @@ img{
   color: var(--secondary-text-color);
 }
 
+.dimianenko,
+.repina,
+.tarasov,
+.ermakov{
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  border-radius: 0px;
+  background-color: var(--primary-white-color);
+}
+
 
 /* ======== Footer ======== */
 address {
@@ -302,6 +317,7 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
+  margin-bottom: 9px;
 }
 
 .address-item {
@@ -309,6 +325,10 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.foot-list:not(:last-child){
+  margin-bottom: 9px;
 }
 
 .logo-item {
@@ -325,4 +345,5 @@ address {
 
 .logo-foot{
   margin-right: 0;
+  margin-bottom: 20px;
 }
