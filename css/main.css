@@ -206,6 +206,10 @@ nav{
   margin: 0;
 }
 
+.benefits-list{
+  padding-bottom: 0;
+}
+
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -242,7 +246,7 @@ nav{
 }
 
 .about-box {
-  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .main-list {
@@ -251,7 +255,6 @@ nav{
 }
 
 .our-team {
-  padding-top: 0;
   background-color: #f5f4fa;
 }
 
