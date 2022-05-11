@@ -64,10 +64,17 @@ img {
 
 .page-header {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+nav{
+  margin-right: auto;
 }
 
 .nav-box {
   display: flex;
+  align-items: center;
 }
 
 .link-logo {
@@ -78,8 +85,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
-  padding-top: 25px;
-  padding-bottom: 24px;
 }
 
 .logo {
@@ -102,9 +107,6 @@ img {
   color: var(--primary-text-color);
   display: flex;
   width: 294px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-right: 331px;
 }
 
 .site-nav-link:hover,
@@ -126,8 +128,6 @@ img {
 
 .contact-list {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .contact-list-item:not(:last-child) {
@@ -152,12 +152,9 @@ img {
 
 .hero {
   background-color: var(--background-color);
-  display: flex;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-right: 452px;
-  padding-left: 452px;
 }
 
 .hero-title {
@@ -230,8 +227,11 @@ img {
 }
 
 .list-ben-item {
-  margin-right: 30px;
   width: 270px;
+}
+
+.list-ben-item:not(:last-child){
+    margin-right: 30px;
 }
 
 .main-title {
@@ -274,8 +274,7 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -283,8 +282,15 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  padding-bottom: 30px;
   text-align: center;
+}
+
+.dimianenko,
+.repina,
+.tarasov,
+.ermakov{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-list-item {
