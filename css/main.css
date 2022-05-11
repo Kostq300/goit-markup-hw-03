@@ -64,8 +64,6 @@ img {
 
 .page-header {
   border-bottom: 1px solid #ececec;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 nav{
@@ -85,6 +83,8 @@ nav{
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -108,6 +108,13 @@ nav{
   display: flex;
   width: 294px;
 }
+
+.site-nav-link{
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 
 .site-nav-link:hover,
 .site-nav-link:focus {
