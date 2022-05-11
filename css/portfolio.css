@@ -49,6 +49,8 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -69,6 +71,12 @@ img {
   width: 294px;
 }
 
+.site-nav-link{
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .site-nav-link:hover,
 .site-nav-link:focus {
   color: var(--accent-color);
@@ -87,9 +95,6 @@ img {
 }
 
 .page-header {
-  display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
 
