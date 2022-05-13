@@ -85,6 +85,7 @@ nav{
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
+  display: inline-block;
 }
 
 .logo {
@@ -147,6 +148,9 @@ nav{
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contact-link:hover,
@@ -252,10 +256,6 @@ nav{
   margin-right: 0;
 }
 
-.about-box {
-  padding-bottom: 0;
-}
-
 .main-list {
   display: flex;
   padding: 0;
@@ -327,6 +327,7 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
+  display: block;
   margin-bottom: 9px;
 }
 
@@ -349,11 +350,9 @@ address {
   color: var(--primary-white-color);
 }
 
-.foot-info {
-  margin-top: 20px;
-}
-
 .logo-foot {
-  margin-right: 0;
+  display: block;
   margin-bottom: 20px;
+  margin-right: 0;
+  padding: 0;
 }
